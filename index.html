@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<html>
+<body>
+
+<p>A script on this page starts this clock:</p>
+
+<p id="demo"></p>
+
+<script>
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+</script>
+
+</body>
+</html>
+
+<p id="demo">Hello and Welcome to my website </p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("demo");
+    x.style.fontSize = "25px";
+    x.style.color = "black"; 
+}
+</script>
+
+<button onclick="myFunction()">Click Me!</button>
+
+  <button onclick="document.getElementById('myImage').src='http://www.bestfunnyjokes4u.com/wp-content/uploads/2012/12/funny-dogs-pics-300x217.jpg'">Press if you like dogs</button>
+
+  <img id="myImage" src="http://www.urdogs.com/wp-content/uploads/2016/05/cats-and-dogs-03.jpg" style="width:100px">
+
+  <button onclick="document.getElementById('myImage').src='https://i0.wp.com/favimages.com/wp-content/uploads/2012/02/scared-cat-bulging-eyes-funny.jpg'">Press if you like cats</button>
+  <script type="text/javascript">
+//
+// Description: Randomly change background color every 5 seconds
+//
+// NewcWare 1997
+// Author: Scott Newcomer 3/1997
+// Email: nuke@bright.net
+//
+function setbackground()
+{
+window.setTimeout( "setbackground()", 2000); // 2000 milliseconds delay
+
+var index = Math.round(Math.random() * 9);
+
+var ColorValue = "FFFFFF"; // default color - white (index = 0)
+
+if(index == 1)
+ColorValue = "FFCCCC"; //peach
+if(index == 2)
+ColorValue = "CCAFFF"; //violet
+if(index == 3)
+ColorValue = "A6BEFF"; //lt blue
+if(index == 4)
+ColorValue = "99FFFF"; //cyan
+if(index == 5)
+ColorValue = "D5CCBB"; //tan
+if(index == 6)
+ColorValue = "99FF99"; //lt green
+if(index == 7)
+ColorValue = "FFFF99"; //lt yellow
+if(index == 8)
+ColorValue = "FFCC99"; //lt orange
+if(index == 9)
+ColorValue = "CCCCCC"; //lt grey
+
+document.getElementsByTagName("body")[0].style.backgroundColor = "#" + ColorValue;
+
+}
+</script>
+<body onload="setbackground();">
+
+<h1> Lyndsey Dworkin </h1>
+<!-- <font color="#00008B">Lyndsey Dworkin</font> -->
+
+<font color="#000000" size="5">  I am a girl who is interested in learning more about how code works and when to use it in the workforce. I am from Mountain View California, I am going to be in 12th grade in August of 2018. I have a brother named philip, a dog named Kona and an evil cat named Rosie. When I am not coding, you can find me on the soccer field kicking some ass or in the robotics lab building robots and teaching others how to use dangerous tools.
+
+
+
+<h2> likes </h2>
+ I like to be as active as possible and listen to music when ever. I go to the gym three times a week and will start playing soccer in the fall. While doing these activities, I will most likely be listening to some of my favorite music.
+
+<h3> Dislikes </h3>
+ I don’t like Disneyland. I find Disneyland to be very Claustrophobic especcially when your around tons of people, they can be mean to you thinking that you cut them in line but really you've been in the same spot for a hour and a half. It's just not fun. To me this place is not the happiest place on earth.
+
+
+<h4> Favorite website </h4>
+123 movies lets me watch movies for free instead of going to the movie theater, ( just don’t download and share these movies because you can be arrested for that.
+https://www.facebook.com/: I like to share what I been up on this earth and get ideas for other things or places
+https://www.netflix.com/: I watch older shows and new movies, Netflix is cheap and has a nice variety of different shows or movies to choose from.
+
+My favorite website is <a href="https://1123moviesz.com/"> 123 movies </a>
+My second favorite website is <a href="https://www.facebook.com/"> facebook </a>
+My third favorite website is <a href="https://www.netflix.com/"> netflix</a>
+</body>
+</html>
